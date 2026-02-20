@@ -1,0 +1,17 @@
+/* Just Curious persona – playful, bolder colors */
+[data-persona='curious'] {
+  --background: 330 30% 98%;
+  --foreground: 330 30% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 330 30% 15%;
+  --primary: 330 80% 55%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 330 25% 92%;
+  --muted: 330 20% 94%;
+  --muted-foreground: 330 15% 45%;
+  --accent: 45 95% 55%;
+  --accent-foreground: 330 30% 10%;
+  --border: 330 20% 88%;
+  --input: 330 20% 88%;
+  --ring: 330 80% 55%;
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Front-end Developer",
+    "company": "SocialHub Maloon GmbH",
+    "location": "Ingolstadt, Germany",
+    "date": "05/2022 - Current",
+    "description": [
+      "Developed and shipped complex social media management features for SaaS platforms",
+      "Migrated all monorepo projects from Webpack to Vite, reducing development time from ~5 minutes to ~15 seconds",
+      "Collaborated with designers to translate Figma mockups into pixel-perfect, production-ready UIs using Tailwind CSS and styled-components",
+      "Migrated the codebase from BackboneJS to React 16 and currently to React 18.2",
+      "Conducted code reviews and mentored on TypeScript and React best practices",
+      "Participated in agile ceremonies to facilitate project planning and team communication"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Front-end Developer",
+    "company": "Xngage LLC.",
+    "location": "Cleveland, USA",
+    "date": "10/2019 - 05/2022",
+    "description": [
+      "Developed over 10 e-commerce platforms utilizing React and Styled-components, achieving more than 85 Lighthouse scores",
+      "Crafted design systems from Figma and InVision, reducing UI development time by 25%",
+      "Collaborated with backend developers to integrate REST APIs and enhance application performance",
+      "Automated theme inheritance using Node.js for new e-commerce projects"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Frontend Developer Intern",
+    "company": "ITG Software",
+    "location": "Nablus, Palestine",
+    "date": "05/2019 - 10/2019",
+    "description": [
+      "Acquired extensive experience with Git and agile development methodologies",
+      "Demonstrated proficiency in TypeScript and modern frontend tools to optimize user interactions"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "AIDA: AI Agent for Aramco",
+    "description": "Worked on an AI agent for Aramco as part of the Beyond Limits Company",
+    "details": [
+      "Added TTS, ASR functionalities using fast-whisper, socket events, and other wall commands",
+      "Used a microfrontend-like architecture to display charts on the main screen"
+    ],
+    "links": [
+      {
+        "label": "Watch Demo",
+        "url": "https://www.loom.com/share/bcdf6b9f19b44b49aba9a17922f7c214?sid=1b70ca49-3785-4696-912b-12f782f5de5a"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "TaskFlow: Simple Task Tracker",
+    "description": "Offline-first task tracker with real-time sync across devices",
+    "details": [
+      "Built with TanStack Router, React 19, Zustand, Vite, shadcn, TailwindCSS",
+      "Offline-first architecture using IndexedDB with Supabase sync",
+      "PWA support with conflict resolution for shared boards",
+      "Last-write-win approach for handling collaborative conflicts"
+    ],
+    "links": [
+      {
+        "label": "View App",
+        "url": "https://task-flow-tau-seven.vercel.app/login"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "E-Commerce Platforms",
+    "description": "Developed multiple high-performance e-commerce websites",
+    "details": [],
+    "links": [
+      { "label": "Werner Supply", "url": "https://www.wernerelectric.com" },
+      { "label": "Vanmeter", "url": "https://www.vanmeterinc.com" },
+      { "label": "Stone Age", "url": "https://www.stoneagetools.com" },
+      { "label": "Bartle & Gibson", "url": "https://bartlegibson.com" }
+    ]
+  }
+]

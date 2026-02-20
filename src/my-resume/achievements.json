@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "icon": "⚡",
+    "text": "Delivered pixel-perfect, production-ready UIs for over 10 e-commerce platforms, achieving 85+ Lighthouse scores"
+  },
+  {
+    "id": 2,
+    "icon": "🚀",
+    "text": "Migrated monorepo projects from Webpack to Vite, reducing compiling time from ~5 min to ~15 seconds"
+  },
+  {
+    "id": 3,
+    "icon": "📚",
+    "text": "Built reusable component libraries in Storybook, reducing UI development time by 25%"
+  },
+  {
+    "id": 4,
+    "icon": "⚙️",
+    "text": "Automated theme inheritance workflows using Node.js, saving 200+ hours per year"
+  },
+  {
+    "id": 5,
+    "icon": "💻",
+    "text": "Spearheaded TypeScript adoption across two teams, reducing runtime errors by 30%"
+  }
+]

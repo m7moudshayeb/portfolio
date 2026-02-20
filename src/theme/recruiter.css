@@ -1,0 +1,17 @@
+/* Recruiter persona – clean, light, terracotta/sand (current portfolio palette) */
+[data-persona='recruiter'] {
+  --background: 40 20% 97%;
+  --foreground: 0 0% 20%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 20%;
+  --primary: 14 76% 57%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 30 10% 85%;
+  --muted: 30 10% 92%;
+  --muted-foreground: 0 0% 40%;
+  --accent: 14 76% 57%;
+  --accent-foreground: 0 0% 100%;
+  --border: 30 10% 84%;
+  --input: 30 10% 84%;
+  --ring: 14 76% 57%;
+}

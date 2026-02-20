@@ -1,0 +1,8 @@
+{
+  "Frontend Frameworks": ["React", "Next.js", "React Query", "Redux", "Vue.js"],
+  "Languages": ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Python", "Rust"],
+  "Styling & UI": ["Tailwind CSS", "Styled Components", "Storybook", "Shadcn UI"],
+  "Build Tools & Testing": ["Vite", "Jest", "Enzyme", "Vitest", "Cypress"],
+  "Backend & Database": ["Node.js", "Express", "MongoDB", "Supabase", "PostgreSQL"],
+  "Architecture": ["Monorepo", "Microfrontend", "I18Next", "Docker"]
+}
