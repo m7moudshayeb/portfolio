@@ -1,8 +1,36 @@
 {
-  "Frontend Frameworks": ["React", "Next.js", "React Query", "Redux", "Vue.js"],
-  "Languages": ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Python", "Rust"],
-  "Styling & UI": ["Tailwind CSS", "Styled Components", "Storybook", "Shadcn UI"],
+  "Frontend Frameworks": [
+    "React",
+    "React-Router",
+    "Redux-Saga",
+    "React Query",
+    "Zustand",
+    "Redux",
+    "Vue.js"
+  ],
+  "Languages": [
+    "TypeScript",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "Python",
+    "Rust"
+  ],
+  "Styling & UI": [
+    "Tailwind CSS",
+    "Styled-components",
+    "Storybook",
+    "Shadcn UI",
+    "Motion UI",
+    "Re-charts"
+  ],
   "Build Tools & Testing": ["Vite", "Jest", "Enzyme", "Vitest", "Cypress"],
-  "Backend & Database": ["Node.js", "Express", "MongoDB", "Supabase", "PostgreSQL"],
-  "Architecture": ["Monorepo", "Microfrontend", "I18Next", "Docker"]
+  "Backend & Database": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Supabase",
+    "PostgreSQL"
+  ],
+  "Architecture": ["Monorepo", "Micro-frontend", "I18Next", "Docker"]
 }

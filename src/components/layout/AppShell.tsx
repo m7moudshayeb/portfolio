@@ -1,10 +1,10 @@
-import { usePersonaStore } from '@/store/persona'
-import type { PersonaId } from '@/types/persona'
-import { Button } from '@/components/ui/button'
-import { Outlet } from 'react-router-dom'
-import { AiChatTrigger } from '@/components/ai-chat/AiChatTrigger'
-import { NavRecruiter } from '@/components/layout/NavRecruiter'
-import { motion, AnimatePresence } from 'framer-motion'
+import { usePersonaStore } from "@/store/persona";
+import type { PersonaId } from "@/types/persona";
+import { Button } from "@/components/ui/button";
+import { Outlet } from "react-router-dom";
+import { AiChatTrigger } from "@/components/ai-chat/AiChatTrigger";
+import { NavRecruiter } from "@/components/persona-view/recruiter";
+import { motion, AnimatePresence } from "framer-motion";
 
 const PERSONA_LABELS: Record<PersonaId, string> = {
   developer: "Developer",
