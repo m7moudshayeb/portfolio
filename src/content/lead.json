@@ -1,0 +1,100 @@
+{
+  "opening": {
+    "headline": "Frontend systems fail slowly — until they don't.",
+    "subtext": "I build structures that survive growth.",
+    "intro": "My focus is long-term clarity:\nclear boundaries, predictable state flow, and decisions that remain defensible as teams expand.",
+    "ctas": [
+      { "label": "View Refactor Case Study", "scrollRef": "case" },
+      { "label": "Explore Architecture Principles", "scrollRef": "tree" }
+    ]
+  },
+  "caseStudy": {
+    "title": "Refactoring a Growing Frontend Without Stopping Delivery",
+    "problem": {
+      "intro": "The system showed classic scaling symptoms:",
+      "bullets": [
+        "State scattered across layers",
+        "Deep prop drilling",
+        "UI tightly coupled with business logic",
+        "Performance degradation under feature growth"
+      ],
+      "closing": "Shipping became slower. Debugging became harder."
+    },
+    "approach": {
+      "intro": "I avoided a \"big rewrite.\"\nInstead:",
+      "bullets": [
+        "Mapped domain boundaries",
+        "Reduced shared mutable state",
+        "Moved logic closer to usage",
+        "Extracted reusable, isolated components",
+        "Measured before and after each change"
+      ],
+      "closing": "Refactor as a series of controlled improvements — not a heroic rewrite."
+    },
+    "result": {
+      "bullets": [
+        "Fewer unnecessary re-renders",
+        "Faster onboarding for new engineers",
+        "Lower regression risk",
+        "Increased confidence when shipping new features"
+      ],
+      "closing": "Good architecture increases team velocity over time."
+    }
+  },
+  "stateTree": {
+    "title": "State Is a Responsibility, Not a Tool",
+    "intro": "The wrong state decision compounds quietly.",
+    "order": [
+      "Local State",
+      "Lifted State",
+      "Context or Store",
+      "Global Store"
+    ],
+    "reasoning": {
+      "Local State": "If only one component cares, keep it local.",
+      "Lifted State": "If siblings depend on it, lift it intentionally.",
+      "Context or Store": "If it represents domain-level truth, centralize it.",
+      "Global Store": "Use when multiple independent areas rely on shared data — not as a default."
+    },
+    "closingLine": "Global state is powerful.\nOveruse is expensive."
+  },
+  "teamScaling": {
+    "title": "Scaling Frontend Teams Without Losing Clarity",
+    "sections": [
+      {
+        "title": "Code Reviews",
+        "body": "Code reviews should improve architecture, not just formatting.\nI look for boundary violations, accidental coupling, and hidden complexity."
+      },
+      {
+        "title": "Abstraction",
+        "body": "Abstraction is earned through repetition.\nIf it hasn't repeated, it hasn't proven itself."
+      },
+      {
+        "title": "Folder Structure",
+        "body": "Structure should mirror domain logic — not technical layers.\nIf a new engineer can't predict where something lives, the structure failed."
+      },
+      {
+        "title": "Documentation",
+        "body": "Short, clear reasoning scales better than long documentation nobody reads."
+      }
+    ]
+  },
+  "lessons": {
+    "title": "Experience Is Accumulated Mistakes",
+    "items": [
+      "I abstracted too early.",
+      "I avoided refactors too long.",
+      "I optimized before measuring.",
+      "I underestimated how fast complexity compounds.",
+      "Now I optimize for clarity first."
+    ]
+  },
+  "aiPlaceholder": {
+    "askMe": [
+      "When do you refactor vs rewrite?",
+      "How do you prevent architecture decay?",
+      "How do you decide state boundaries?",
+      "How do you scale frontend teams?"
+    ]
+  }
+}
