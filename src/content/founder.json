@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "headline": "I build frontend systems that scale without slowing you down.",
+    "subtext": "Product-first engineering. Measured impact. Clean execution."
+  },
+  "metrics": [
+    { "icon": "⚡", "text": "Cut unnecessary re-renders by 35% by restructuring component boundaries" },
+    { "icon": "📈", "text": "Improved onboarding completion by 18% by simplifying user flow" },
+    { "icon": "🧩", "text": "Built reusable UI systems adopted across multiple product surfaces" }
+  ],
+  "ctas": [
+    { "label": "Explore SaaS Simulation", "scrollRef": "saas" },
+    { "label": "See How I Think About Product", "scrollRef": "product" }
+  ],
+  "saas": {
+    "title": "Scalable UI Is a System, Not a Page",
+    "intro": "This demo reflects how I structure frontend architecture around:",
+    "bullets": [
+      "Role-based access",
+      "Feature flags",
+      "Subscription logic",
+      "Tenant-level configuration"
+    ],
+    "introClosing": "Without duplicating components or leaking business logic into UI layers.",
+    "supportingLine": "The goal isn't flexibility.\nThe goal is controlled flexibility."
+  },
+  "productThinking": {
+    "sectionTitle": "How I Think When Building Product",
+    "cards": [
+      {
+        "title": "Shipping Discipline",
+        "headline": "Speed is a strategy — not chaos.",
+        "body": "Early-stage products need momentum.\nI ship fast — but I design in a way that doesn't punish the team six months later.\n\nTemporary decisions are documented.\nScalable decisions are deliberate."
+      },
+      {
+        "title": "Reducing Friction",
+        "headline": "Every unnecessary step costs conversion.",
+        "body": "Clear hierarchy.\nFast feedback.\nPredictable interaction.\n\nUI decisions directly affect revenue. I treat them that way."
+      },
+      {
+        "title": "Feature Boundaries",
+        "headline": "Scaling breaks messy systems.",
+        "body": "I separate domain logic from rendering logic early.\nWhen teams grow, clean boundaries prevent expensive rewrites."
+      },
+      {
+        "title": "Tradeoffs",
+        "headline": "Architecture serves the business.",
+        "body": "I don't optimize for elegance.\nI optimize for stage, team size, and risk exposure.\n\nSometimes the right solution is simple.\nSometimes it's structured.\nKnowing when is the real skill."
+      }
+    ]
+  },
+  "tradeoff": {
+    "sectionTitle": "Speed vs Maintainability",
+    "intro": "Every system is a tradeoff.\nThe mistake is pretending it isn't.",
+    "towardSpeed": "In early-stage products, learning velocity matters more than architectural purity. I bias toward iteration.",
+    "balanced": "I design features with future scaling in mind while keeping implementation friction low.",
+    "towardMaintainability": "In scaling teams, stability reduces cognitive load and protects delivery speed long term."
+  },
+  "aiPlaceholder": {
+    "askMe": [
+      "How would you structure a SaaS frontend from scratch?",
+      "How do you avoid feature-flag chaos?",
+      "How do you balance velocity and structure?"
+    ]
+  }
+}

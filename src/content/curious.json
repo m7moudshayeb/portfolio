@@ -1,0 +1,24 @@
+{
+  "badges": [
+    { "id": "personas", "label": "Tried all personas", "unlocked": true },
+    { "id": "game", "label": "Complete mini game", "unlocked": false },
+    { "id": "architecture", "label": "Open architecture overlay", "unlocked": false }
+  ],
+  "hiddenFacts": [
+    {
+      "icon": "🐛",
+      "title": "Weird bug I fixed",
+      "fact": "A race where localStorage was read before hydration — fixed with a gate and SSR-safe default."
+    },
+    {
+      "icon": "🔥",
+      "title": "Dev hot take",
+      "fact": "Most \"clean code\" debates are about taste. Consistency and boundaries matter more than pattern count."
+    },
+    {
+      "icon": "🧹",
+      "title": "Favorite refactor",
+      "fact": "Replacing a 2k-line \"utils\" file with domain-scoped helpers. Delete count felt good."
+    }
+  ]
+}

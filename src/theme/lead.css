@@ -1,17 +1,21 @@
-/* Technical Lead persona – architecture board, professional */
+/* Technical Lead persona */
 [data-persona='lead'] {
-  --background: 220 15% 98%;
-  --foreground: 220 20% 15%;
-  --card: 0 0% 100%;
-  --card-foreground: 220 20% 15%;
-  --primary: 220 70% 50%;
-  --primary-foreground: 0 0% 100%;
-  --secondary: 220 15% 92%;
-  --muted: 220 15% 94%;
-  --muted-foreground: 220 10% 45%;
-  --accent: 220 70% 50%;
+  --background: 220 18% 14%;
+  --foreground: 220 15% 95%;
+  --card: 220 18% 18%;
+  --card-foreground: 220 15% 95%;
+  --primary: 215 25% 55%;
+  --primary-foreground: 220 18% 10%;
+  --secondary: 220 15% 22%;
+  --muted: 220 15% 20%;
+  --muted-foreground: 220 10% 60%;
+  --accent: 215 25% 50%;
   --accent-foreground: 0 0% 100%;
-  --border: 220 15% 88%;
-  --input: 220 15% 88%;
-  --ring: 220 70% 50%;
+  --border: 220 15% 25%;
+  --input: 220 15% 25%;
+  --ring: 215 25% 55%;
+}
+
+[data-persona='lead'] .rounded-lg.border.bg-card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }

@@ -1,17 +1,27 @@
-/* Just Curious persona – playful, bolder colors */
+/* Curious persona */
 [data-persona='curious'] {
-  --background: 330 30% 98%;
-  --foreground: 330 30% 15%;
-  --card: 0 0% 100%;
-  --card-foreground: 330 30% 15%;
-  --primary: 330 80% 55%;
+  --background: 260 40% 10%;
+  --foreground: 0 0% 95%;
+  --card: 260 35% 14%;
+  --card-foreground: 0 0% 95%;
+  --primary: 280 90% 60%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 330 25% 92%;
-  --muted: 330 20% 94%;
-  --muted-foreground: 330 15% 45%;
-  --accent: 45 95% 55%;
-  --accent-foreground: 330 30% 10%;
-  --border: 330 20% 88%;
-  --input: 330 20% 88%;
-  --ring: 330 80% 55%;
+  --secondary: 260 30% 20%;
+  --muted: 260 30% 18%;
+  --muted-foreground: 260 15% 65%;
+  --accent: 330 85% 55%;
+  --accent-foreground: 0 0% 100%;
+  --border: 260 25% 25%;
+  --input: 260 25% 25%;
+  --ring: 280 90% 60%;
+}
+
+/* Subtle gradient animation on background */
+[data-persona='curious'] .curious-gradient-bg {
+  background: linear-gradient(
+    135deg,
+    hsl(260 40% 10%) 0%,
+    hsl(280 50% 12%) 50%,
+    hsl(260 40% 10%) 100%
+  );
 }
