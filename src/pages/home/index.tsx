@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 import { usePersonaStore } from "@/store/persona";
-import { TimelineView } from "@/components/persona-view/timeline";
-import { CliView } from "@/components/persona-view/debugger-cli";
+import { TimelineView } from "@/components/persona-view/recruiter";
+import { CliView } from "@/components/persona-view/developer/debugger-cli";
 import {
   DEVELOPER,
   RECRUITER,
