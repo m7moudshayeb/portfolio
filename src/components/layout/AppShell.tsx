@@ -1,10 +1,10 @@
-import { usePersonaStore } from "@/store/persona";
-import type { PersonaId } from "@/types/persona";
-import { Button } from "@/components/ui/button";
-import { Outlet } from "react-router-dom";
-import { AiChatTrigger } from "@/components/ai-chat/AiChatTrigger";
-import { NavRecruiter } from "@/components/layout/NavRecruiter";
-import { motion, AnimatePresence } from "framer-motion";
+import { usePersonaStore } from '@/store/persona'
+import type { PersonaId } from '@/types/persona'
+import { Button } from '@/components/ui/button'
+import { Outlet } from 'react-router-dom'
+import { AiChatTrigger } from '@/components/ai-chat/AiChatTrigger'
+import { NavRecruiter } from '@/components/layout/NavRecruiter'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const PERSONA_LABELS: Record<PersonaId, string> = {
   developer: "Developer",
@@ -36,8 +36,7 @@ export function AppShell() {
               <NavRecruiter />
             ) : persona.features.cli ? (
               <div className="text-sm text-muted-foreground">
-                CLI bar placeholder – you implement CLI commands (e.g. /about,
-                /projects)
+                CLI bar placeholder – you implement CLI (e.g. /about, /projects)
               </div>
             ) : (
               <a href="/" className="font-serif font-bold">
